@@ -31,21 +31,24 @@
               <ogc:PropertyName>nombre</ogc:PropertyName>
             </se:Label>
             <se:Font>
-              <se:SvgParameter name="font-family">MS Shell Dlg 2</se:SvgParameter>
-              <se:SvgParameter name="font-size">13</se:SvgParameter>
+              <se:SvgParameter name="font-family">Montserrat</se:SvgParameter>
+              <se:SvgParameter name="font-size">15</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
               <se:PointPlacement>
                 <se:AnchorPoint>
-                  <se:AnchorPointX>0</se:AnchorPointX>
-                  <se:AnchorPointY>0.5</se:AnchorPointY>
+                  <se:AnchorPointX>0.5</se:AnchorPointX>
+                  <se:AnchorPointY>0</se:AnchorPointY>
                 </se:AnchorPoint>
+                <se:Displacement>
+                  <se:DisplacementX>7</se:DisplacementX>
+                  <se:DisplacementY>7</se:DisplacementY>
+                </se:Displacement>
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
             </se:Fill>
-            <se:VendorOption name="maxDisplacement">1</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
