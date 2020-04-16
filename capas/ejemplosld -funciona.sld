@@ -10,31 +10,16 @@
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
-                <se:WellKnownName>hexagon</se:WellKnownName>
+                <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                  <se:SvgParameter name="fill">#54b04a</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#fa8b39</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>24</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>hexagon</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#fab07c</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#fab07c</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#3d8035</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>10</se:Size>
+              <se:Size>14</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
