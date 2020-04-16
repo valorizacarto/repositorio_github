@@ -12,18 +12,20 @@
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#2f6d1b</se:SvgParameter>
+                  <se:SvgParameter name="fill">#54b04a</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#3d8035</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>14</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
+          <se:MinScaleDenominator>1</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>nombre</ogc:PropertyName>
