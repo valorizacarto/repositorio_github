@@ -24,8 +24,6 @@
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:MinScaleDenominator>1</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>nombre</ogc:PropertyName>
