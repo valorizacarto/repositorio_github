@@ -9,28 +9,32 @@
           <se:Name>Single symbol</se:Name>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="C:/Users/ruben/OneDrive/Imágenes/svg/almacen.svg?fill=%23e15989&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="C:/Users/ruben/OneDrive/Imágenes/svg/almacen.svg" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
+                <se:WellKnownName>hexagon</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#e15989</se:SvgParameter>
+                  <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#fa8b39</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>38</se:Size>
+              <se:Size>21</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>hexagon</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#fab07c</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#fab07c</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>8</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -42,7 +46,7 @@
               <ogc:PropertyName>nombre</ogc:PropertyName>
             </se:Label>
             <se:Font>
-              <se:SvgParameter name="font-family">MS Shell Dlg 2</se:SvgParameter>
+              <se:SvgParameter name="font-family">Montserrat</se:SvgParameter>
               <se:SvgParameter name="font-size">13</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
@@ -54,7 +58,7 @@
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              <se:SvgParameter name="fill">#1f78b4</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
           </se:TextSymbolizer>
