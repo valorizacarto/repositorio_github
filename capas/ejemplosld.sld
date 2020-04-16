@@ -12,14 +12,14 @@
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#54b04a</se:SvgParameter>
+                  <se:SvgParameter name="fill">#2f6d1b</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#3d8035</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>14</se:Size>
+              <se:Size>7</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -32,8 +32,7 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">MS Shell Dlg 2</se:SvgParameter>
-              <se:SvgParameter name="font-size">10</se:SvgParameter>
-              <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+              <se:SvgParameter name="font-size">13</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
               <se:PointPlacement>
@@ -44,7 +43,7 @@
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Fill>
-              <se:SvgParameter name="fill">#e31a1c</se:SvgParameter>
+              <se:SvgParameter name="fill">#000000</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
           </se:TextSymbolizer>
